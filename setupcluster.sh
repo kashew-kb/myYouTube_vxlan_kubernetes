@@ -53,6 +53,8 @@ sudo swapoff -a
 
 #Pull the necessary containers with the command:
 sudo kubeadm config images pull
+NOTE: This may throw an error
+Refer this: https://serverfault.com/questions/1118051/failed-to-run-kubelet-validate-service-connection-cri-v1-runtime-api-is-not-im 
 
 ####### This section must be run only on the Master node#############
 
